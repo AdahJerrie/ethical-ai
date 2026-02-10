@@ -1,4 +1,4 @@
-*Skills and improvement plans*
+## Skills and improvement plans
 
 1. Problem decomposition          3/5    I plan to start breaking down roblems myself and attending to them without the interference of AI.
 
@@ -12,8 +12,8 @@
 
 
 
-My lowest rated skill:  SYSTEMS THINKING
-*3 actions I'll take withou relying on AI*
+#### My lowest rated skill:  SYSTEMS THINKING
+##### 3 actions I'll take without relying on AI
 
 1. For every problem I am faced with, I will try to understand the various components needed to make it work efficiently. By problem decomposition it will help me point out easily the components involved.
 
