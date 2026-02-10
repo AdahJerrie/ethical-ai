@@ -1,3 +1,4 @@
-*What AI added that I didn't consider initially!*
-    One of the key things that the AI addressed for the purpose of efficiency is the issue of space. I have to optimize for space anytime I am coding, so I must weigh my options. From the code I wrote, the AI made it clear that instead of making a copy of the string, I can compare the string against itself using two pointers: one at the start and one at the end.
-    On the aspect of time complexity, this increases the speed by x2. And since no new large arrays or strings are created, just two small integer variables are used therefore memory usage is largely minimised.
+# What AI added that I didn't consider initially!
+1. One of the key things that the AI addressed for the purpose of efficiency is the issue of space. I have to optimize for space anytime I am coding, so I must weigh my options. From the code I wrote, the AI made it clear that instead of making a copy of the string, I can compare the string against itself using two pointers: one at the start and one at the end.
+
+2. On the aspect of time complexity, this increases the speed by x2. And since no new large arrays or strings are created, just two small integer variables are used therefore memory usage is largely minimised.
