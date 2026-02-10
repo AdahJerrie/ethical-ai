@@ -1,3 +1,4 @@
+## Real world challenge scenarios
 1. Interview: You're asked to explain a caching system design. What happens if you've always relied on AI to design systems?
 
 _Answer:  This is a system design question of which if I have been relying on AI, I won't be able to answer. The question might sound familiar and simple, but I can't get a clear picture of what is supposed to happen._
@@ -11,5 +12,5 @@ _Answer: Since It's AI that generated the code that was shipped to production, i
 _Answer: In this case where a person thrives on the use of AI, if a new library is released, it will be very difficult for the person to learn to use it, and definitely make such to be stranded._
 
 
-How using AI fairly today prepares me for real-world challenges like these listed above.
+#### How using AI fairly today prepares me for real-world challenges like these listed above.
 As I do away with over reliance on the use of AI for every single problem, it does not only make me a better coder, it also prepares me for edge cases where AI is unavailable and I have to defend what I actually know. When real-world challenges arise, it might not always wait for me to consult AI before giving result, and at that point should I disappoint then I have already failed. But using AI fairly today, using it at the barest minimum, develops my own understanding of problems and basic programming concepts, which in the long run is what adds up to make me able to face any real-world challenges.
