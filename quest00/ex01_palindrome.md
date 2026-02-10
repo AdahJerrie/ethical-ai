@@ -32,7 +32,11 @@
     }
     //if all symmetric xters are equal then its a pal
     return "This is a palindrome";
-}
+    }
+    
+    //code to check
+    let x = "racecar";
+    console.log (palindrome_check(x));
 
 
 **What I learnt from solving it before asking AI**
