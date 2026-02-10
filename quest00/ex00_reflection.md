@@ -1,7 +1,12 @@
+## How I have used AI for coding so far
 My coding experience with AI so far is such that, most of the time I don't aattempt coding first again, I just give the AI the problem and ask it to give me the resulting code directly. I use it alot but not sure with the right approach.
+
+## Do you usually attempt problems yourself first?
 I don't ususally try problems myself first. I usually get the code from AI first and then try to start debugging later on as lots of bugs arise.
 I always end up being able to explain only about 60% of the code I submit. But on the other hand i ask the AI to explain it to me afresh.
+## What would happen if AI was unavailable during an exam
 If AI was unavailable during an exam or job test, I believe I would take the time to understand deeply the code that I am writing, I will understand every concept so I can be able to explain it fully and defend my work anytime. If I don't do this I will definitely be stranded.
 
+# Where I am and what type of learner I want to become
 My current pattern is learner A : Using AI as an answer generator.
 Currently I am what they would call in today's world "vibe coder". Using AI as an answer generator, I have somehow formed the habit of giving AI the problem to be solved and then copy the answer before making one or two adjustments. But with my exposure to this course, I have seen that I can be by far a better programmer. Where I now want to be is to be a programmer that uses AI as a learning amplifier. I will now be writing my code to the best of my ability before without over reliance on AI. AI will now come to play as a learning amplifier. This in turn will increase my grasp on whatever I am doing.
