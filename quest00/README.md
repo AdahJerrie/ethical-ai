@@ -1,5 +1,9 @@
-*What I learned about AI and self reliance!*
+# What I learned about AI and self reliance!
 
-From this brief discuss, It has become clear to me that I must see the emergence of AI as a tool to assist me in achieving my goal, and not as a replacement for my own work or my own intelligence. I have learned that as a developer that will be irreplaceable, I must not over rely on AI. There are basic concepts that I must not neglect, I will try on building on these concepts more while avoiding over reliance on AI.
+From this brief discuss, It has become clear to me that I must see the emergence of AI as a tool to assist me in achieving my goal, and not as a replacement for my own work or my own intelligence. 
 
-IN future quests, my plan is to bury my head and learn the fundamentals for every concept, attempt every problem myself based on what I've learned and what I am learning, rather than jumping straight to consulting AI. I will break every problem down and start tackling them, AI will be my last resort. I plan on minimizing the use of AI in critical parts of my coding journey, and focusing on the basics.
+# Using AI ethically as a coder
+I have learned that as a developer that will be irreplaceable, I must not over rely on AI. There are basic concepts that I must not neglect, I will try on building on these concepts more while avoiding over reliance on AI.
+
+# How I plan to apply these principles! 
+In future quests, my plan is to bury my head and learn the *fundamentals for every concept*, attempt every problem myself based on what I've learned and what I am learning, rather than jumping straight to consulting AI. I will break every problem down and start tackling them, AI will be my last resort. I plan on minimizing the use of AI in critical parts of my coding journey, and focusing on the basics.
