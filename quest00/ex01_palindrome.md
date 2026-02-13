@@ -10,33 +10,48 @@
 
 ``note that any string of length 1 is always a palindrome``
 
-##### My solution in Javascript
+##### My solution in python
 
-    function palindrome_check(x) {
+#modified version of the above palindrome function that
+#1. removes spaces and punctuation
+#2. converts all uppercases to lowercase.
+
+def pal_checker(x):
+    # create and empty string, this will allow us build a new string that contains only valid xters(letters & numbers)
+    empty = ""
+
+    #now loop through each character in the given string
+    for char in x:
+        #using a special "string method" in python to check for numbers and letters
+        #alternative to .isalnum() string method
+        if ('0' <= char <= '9') or ('a' <= char <= 'z') or ('A' <= char <= 'Z'):
+        #if char.isalnum(): #this string method returns true - if the character is a letter or number and false - if its a space or punctuation
+        #ALTERNATIVELY ALSO, u can separate the number and number check
+        #if char.isalpha() or char.isnum():
+            empty += char.lower() #converts uppercase to lowercase
+            #so now spaces has been removed, uppercase converted to lowercase, and the new string now appended to the old empty string that was created
     
-        let len = s.length;
+    length = len(empty) #getting the current length of xters.
 
-    //Iterate over the first half of the string
-    for (let i = 0; i < len /2; i++) {
-        
-        //If the xters at symmetric positions are not equal
-        if (x[i] != x[len -i -1]) {
-
-            //return not pal
-
-            return "not a palindrome";
-        } else {
-
-        }
-
-    }
-    //if all symmetric xters are equal then its a pal
-    return "This is a palindrome";
-    }
+    #iterating through half of the string(algorithm optimisation) and comparing with the reverse
+    for i in range(length // 2):
+        #now symmetric character comparison
+        if empty[i] != empty[length - i - 1]:
+            return "not pal" #Early exit (efficiency): the function stops immediately a mismatch is found
+            #For time complexity sake, this saves time instead of checking the entire string.
     
-    //code to check
-    let x = "racecar";
-    console.log (palindrome_check(x));
+    return "palindrome" #It returns successful completion once all the boxes are checked!
+#code walk through:
+#1. Input string received
+#2. spaces and punctuation removed
+#3. converted to lowercase
+#4. compared front and back
+#5. all characters match
+
+
+print(pal_checker("racecar"))
+print(pal_checker("hello"))
+print(pal_checker("A man a plan a canal Panama"))
 
 
 **What I learnt from solving it before asking AI**
