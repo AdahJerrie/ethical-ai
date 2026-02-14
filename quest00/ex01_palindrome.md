@@ -12,12 +12,12 @@
 
 ##### My solution in python
 
-#modified version of the above palindrome function that
-#1. removes spaces and punctuation
-#2. converts all uppercases to lowercase.
+    #modified version of the above palindrome function that
+    #1. removes spaces and punctuation
+    #2. converts all uppercases to lowercase.
 
-def pal_checker(x):
-    # create and empty string, this will allow us build a new string that contains only valid xters(letters & numbers)
+    def pal_checker(x):
+    # create an empty string, this will allow us build a new string that contains only valid xters(letters & numbers)
     empty = ""
 
     #now loop through each character in the given string
@@ -41,17 +41,17 @@ def pal_checker(x):
             #For time complexity sake, this saves time instead of checking the entire string.
     
     return "palindrome" #It returns successful completion once all the boxes are checked!
-#code walk through:
-#1. Input string received
-#2. spaces and punctuation removed
-#3. converted to lowercase
-#4. compared front and back
-#5. all characters match
+    #code walk through:
+    #1. Input string received
+    #2. spaces and punctuation removed
+    #3. converted to lowercase
+    #4. compared front and back
+    #5. all characters match
 
 
-print(pal_checker("racecar"))
-print(pal_checker("hello"))
-print(pal_checker("A man a plan a canal Panama"))
+    print(pal_checker("racecar"))
+    print(pal_checker("hello"))
+    print(pal_checker("A man a plan a canal Panama"))
 
 
 **What I learnt from solving it before asking AI**
@@ -64,3 +64,37 @@ Firstly I saw that my confidence increased, and then I had a firm grasp on the u
 Now I am able to use AI more profitably. In general my understanding of AI's function in writing code or programming is now different, I don't depepnd on it to generate my codes for me. I write my code if it works I ask for modifications and edge cases suggestions from AI.
 
 I can now write similar functions e.g reverse a string without help.
+
+# Best way to write the palindrome code
+
+def pal_checker(x) :
+    #using list comprehension and slicing
+    cleaned = ''.join(char.lower() for char in x if char.isalnum())
+    #This creates characters one at a time wtihout storing an intermediate list
+    #This is the most memory-efficient because it doesn't create the `cleaned_chars` list at all—it generates characters on-the-fly and joins them directly
+    length = len(cleaned)
+
+    for i in range (length // 2):
+        if cleaned[i] != cleaned[length - i-1]:
+            # EARLY EXIT: Stop as soon as we find a mismatch
+            # No need to check the rest of the string
+            return f"Not a palindrome. mismatch at position {i}: '{cleaned[i]}' != '{cleaned[length - i-1]}'"
+        
+    return "palindrome"
+
+
+#Test the function
+print(pal_checker("racecar"))
+# Output: "palindrome"
+
+print(pal_checker("hello"))
+# Output: "Not a palindrome. Mismatch at cleaned position 0: 'h' != 'o'"
+
+print(pal_checker("A man, a plan, a canal: Panama"))
+# Output: "palindrome"
+
+print(pal_checker("A man, a plan, a canal: Seattle"))
+# Output: "Not a palindrome. Mismatch at cleaned position 11: 'c' != 's'"
+
+print(pal_checker("Was it a car or a cat I saw"))
+#Output: "Not a palindrome. Mismatch at cleaned position 7: 'r' != 't'"
